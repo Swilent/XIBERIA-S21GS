@@ -7,8 +7,8 @@
 | 文件名 | 描述 |
 |--------|------|
 | [`西伯利亚S21GS.csv`](./西伯利亚S21GS.csv) | 原始频响数据 |
-| [`西伯利亚S21GS GraphicEq.txt`](./西伯利亚S21GS GraphicEq.txt) | EqualizerAPO GraphicEQ格式文件 |
-| [`西伯利亚S21GS ParametricEq.txt`](./西伯利亚S21GS ParametricEq.txt) | EqualizerAPO ParametricEq格式文件 |
+| [西伯利亚S21GS GraphicEq.txt](./%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9AS21GS%20GraphicEq.txt) | EqualizerAPO GraphicEQ格式文件 |
+| [西伯利亚S21GS ParametricEq.txt](./%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9AS21GS%20ParametricEq.txt) | EqualizerAPO ParametricEq格式文件 |
 
 ## 📊 频响数据来源
 
@@ -20,7 +20,7 @@
 
 ### 生成过程
 1. 使用 [AutoEQ](https://autoeq.app/) 平台（[GitHub仓库](https://github.com/jaakkopasanen/AutoEq)）
-2. 导入 `西伯利亚S21GS.csv` 文件
+2. 导入 [`西伯利亚S21GS.csv`](./西伯利亚S21GS.csv) 文件
 3. 设置目标频响曲线为 **Harman over-ear 2018**
 4. 生成两种格式的EQ文件：
    - EqualizerAPO GraphicEQ 格式
@@ -32,7 +32,7 @@
 
 #### 安装步骤
 1. 下载并安装 [Equalizer APO](https://sourceforge.net/projects/equalizerapo/)
-2. 将 [`西伯利亚S21GS GraphicEq.txt`](./西伯利亚S21GS GraphicEq.txt) 文件复制到Equalizer APO安装目录下的 `config` 文件夹
+2. 将 [西伯利亚S21GS GraphicEq.txt](./%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9AS21GS%20GraphicEq.txt) 文件复制到Equalizer APO安装目录下的 `config` 文件夹
 3. 编辑 `config` 文件夹中的配置文件，添加以下内容：
 
 ```ini
